@@ -20,12 +20,12 @@ Gem::Specification.new do |s|
   s.bindir = "bin"
   s.executables = ["hodor"]
 
-  s.add_dependency "net-ssh"
-  s.add_dependency "net-scp"
+  s.add_dependency "net-ssh", "~> 6.0"
+  s.add_dependency "net-scp", "~> 3.0"
 
-  s.add_development_dependency "m"
-  s.add_development_dependency "byebug"
-  s.add_development_dependency "pry"
-  s.add_development_dependency "minitest"
-  s.add_development_dependency "simplecov"
+  s.add_development_dependency "m", "~> 1.0"
+  s.add_development_dependency "byebug", "~> 11"
+  s.add_development_dependency "pry", "~> 0.13"
+  s.add_development_dependency "minitest", "~> 5.14"
+  s.add_development_dependency "simplecov", "~> 0.21.2"
 end
