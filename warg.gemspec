@@ -6,6 +6,8 @@ Gem::Specification.new do |s|
   s.description = "Running one-off commands, templated scripts, " +
     "or managing output from multiple servers"
   s.authors = ["Eduardo Gutierrez"]
+  s.license = "MIT"
+  s.homepage = "https://github.com/ecbypi/warg"
 
   s.files = Dir[
     "README.md",
